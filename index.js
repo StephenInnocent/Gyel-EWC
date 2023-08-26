@@ -38,7 +38,6 @@ app.use(expressMongoSanitize({
     allowDots: true
 }));
 
-
 app.use("/users",usersRouter);
 app.use("/admin",adminRouter);
 app.use("/judges", judgesRouter)
@@ -49,7 +48,6 @@ app.get("/test",(req,res)=>{
 
 app.get("/",(req,res)=>{
     res.status(200).render('home');
-
     res.end();
 })
 app.get("/register",(req,res) =>{
