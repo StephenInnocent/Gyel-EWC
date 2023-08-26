@@ -1,0 +1,9 @@
+.photoshoot{
+    display: grid;
+    columns: 3;
+}
+
+img{
+    height: 300px;
+    width: 300px
+}

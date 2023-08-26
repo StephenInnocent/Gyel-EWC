@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="top-menu">
+            <div>
+                <img src="/images/Gyel-EWC-logo.png" alt="logo" id="logo">
+                <h1 class="title">Gyel Essay Competition<sub>Unleash Your Imagination</sub></h1>
+            </div>
+            <nav class="page-links">
+                <ul class="nav-links">
+                    <li id="gallery">
+                        <a href="/">Home</a>
+                        <a href="/gallery">Gallery</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <h3>Register</h3>
+            <form action="/users/register" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="username"><br><br>
+                <label for="sex">Sex</label><br>
+                <input type="radio" name="Male" id="male-check">
+                <input type="radio" name="Female" id="female-check"><br><br>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="userage"><br><br>
+                <label for="class">Class</label>
+                <input type="text" name="class" id="user-class"><br><br>
+                <label for="school">School Name:</label>
+                <input type="text" name="school" id="schoolName"><br><br>
+                <label for="village">Kindly Select Your Village</label>
+                <select name="villages" id="village">
+                    <option value="Sot">Sot</option>
+                    <option value="Tanchol">Tanchol</option>
+                    <option value="Tahei">Tahei</option>
+                    <option value="Sankon">Sankon</option>
+                    <option value="Rankyeng">Rankyeng</option>
+                    <option value="Lyoh">Lyoh</option>
+                    <option value="Nyango-Tah">Nyango-Tah</option>
+                    <option value="Kul">Kul</option>
+                    <option value="Gura-Riyom">Gura-Riyom</option>
+                    <option value="Gura-Dabwam">Gura-Dabwam</option>
+                    <option value="Lyoh-Rak">Lyoh-Rak</option>
+                    <option value="Gatong">Gatong</option>
+                </select><br><br>
+                <label for="school_id">Kindly upload your school Id card.</label><br>
+                <button id="btn-schoolId">Upload School Id</button><br><br>
+                <label for="indigene-cert">Kindly upload your indegene certificate.</label><br>
+                <button id="btn-indigene">Upload Indigene Cert</button><br><br>
+                <label for="Essay">Upload Essay</label><br>
+                <button id="btn-essay">Upload Essay</button><br><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="contacts">
+            <div class="land">
+                <pre>Faith Computers and prints,
+            1st floor ECWA Building, 
+            Rahol-Kak, Gyel.
+            Jos, Plateau State.
+                </pre>
+            </div>
+            <div>
+                <pre>
+                    +23400000000
+                    +23400000000
+                </pre>
+                <p>facebook.com/Gyel-EWC</p>
+                <p>iGyel-EWC@<i>pinInterest</i></p>
+                <p>X.com/Gyel-EWC</p>
+            </div>
+        </div>
+        <p>&copy; 2023 Gyel Essay Competition</p>
+    </footer>
+</body>
+</html>
